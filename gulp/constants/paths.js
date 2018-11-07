@@ -1,0 +1,50 @@
+//Folders
+const ASSETS_FOLDER = 'assets';
+const ICONS_FOLDER = 'icons';
+const IMAGES_FOLDER = 'images';
+const SPRITES_FOLDER = 'sprites';
+const CSS_FOLDER = 'css';
+const SASS_FOLDER = 'sass';
+const JAVASCRIPT_FOLDER = 'js';
+const DEV_FOLDER = 'dev';
+
+//Deployment paths
+const ROOT_PATH = '.';
+const ASSETS_PATH = `${ROOT_PATH}/${ASSETS_FOLDER}`;
+const IMAGES_PATH = `${ASSETS_PATH}/${IMAGES_FOLDER}`;
+const ICONS_PATH = `${IMAGES_PATH}/${ICONS_FOLDER}`;
+const SPRITES_PATH = `${IMAGES_PATH}/${SPRITES_FOLDER}`;
+const CSS_PATH = `${ROOT_PATH}/${CSS_FOLDER}`;
+const JAVASCRIPT_PATH = `${ROOT_PATH}/${JAVASCRIPT_FOLDER}`;
+
+//Production paths
+const DEV_ROOT_PATH = `./${DEV_FOLDER}`;
+const DEV_ASSETS_PATH = `${DEV_ROOT_PATH}/${ASSETS_FOLDER}`;
+const DEV_SPRITE_PATH = `${DEV_ASSETS_PATH}/${SPRITES_FOLDER}`;
+const DEV_SPRITE_CSS_PATH = `${DEV_SPRITE_PATH}/${CSS_FOLDER}`;
+const DEV_CSS_PATH = `${DEV_ROOT_PATH}/${CSS_FOLDER}`;
+const DEV_SASS_PATH = `${DEV_ROOT_PATH}/${SASS_FOLDER}`;
+const DEV_JAVASCRIPT_PATH = `${DEV_ROOT_PATH}/${JAVASCRIPT_FOLDER}`;
+
+//Misc. paths
+const XAMPP_PATH = 'D:\\xampp\\htdocs';
+const GULP_TASK_PATH = 'gulp\\tasks';
+
+module.exports = {
+    ROOT_PATH,
+    ASSETS_PATH,
+    IMAGES_PATH,
+    ICONS_PATH,
+    SPRITES_PATH,
+    CSS_PATH,
+    JAVASCRIPT_PATH,
+    DEV_ROOT_PATH,
+    DEV_ASSETS_PATH,
+    DEV_SPRITE_PATH,
+    DEV_SPRITE_CSS_PATH,
+    DEV_CSS_PATH,
+    DEV_SASS_PATH,
+    DEV_JAVASCRIPT_PATH,
+    XAMPP_PATH,
+    GULP_TASK_PATH
+};
